@@ -1,0 +1,80 @@
+/* static/style.css */
+/* static/style.css */
+/* Other styles... */
+
+.firstpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 860px;
+    margin: 20px auto; /* Center horizontally */
+}
+
+
+
+body {
+    background-image: url(https://media.istockphoto.com/id/965409778/photo/collage-mood-board-modern-art-i-made-of-printed-matter-craft-paper-little-pieces-of-teared.jpg?s=612x612&w=0&k=20&c=LEZ236-W7_tsjF83DZm1FSU9Z3oebEAHSwR2CkwmYp4=);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chat-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.user-message {
+    background-color: #dbeeff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.bot-message {
+    background-color: #f6f6f6;
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    margin: 10px; 
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+}

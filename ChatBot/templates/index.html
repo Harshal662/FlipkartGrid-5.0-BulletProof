@@ -1,0 +1,70 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fashion Recommender</title>
+    <style>
+        /* Styles for the chat history */
+        #chat-history {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styles for user's messages */
+        .user-message {
+            background-color: #4ea6e4;
+            border-radius: 8px;
+            padding: 8px;
+            margin: 6px 0;
+        }
+
+        /* Styles for chatbot's responses */
+        .chatbot-message {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            padding: 8px;
+            margin: 6px 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="firstpart">
+        <h1><strong>Welcome to the Fashion Recommender Chatbot</strong></h1>
+        <form method="POST" action="/submit">
+            <input type="text" name="user_input" placeholder="Please enter your question" required>
+            <button type="submit">Submit</button>
+
+            <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer;"
+            type="button" onclick="window.location.href = 'http://localhost:3000/';">Return Home</button>
+
+        </form>
+    </div>
+
+    <div id="chat-history">
+        <!-- Loop through chat history and display user queries and chatbot responses -->
+        {% for entry in chat_history %}
+        <p><strong>{{ entry[0] }}</strong></p> <!-- User query -->
+        <p>{{ entry[1] }}</p> <!-- Chatbot response -->
+        {% endfor %}
+    </div>
+
+</body>
+
+</html>
