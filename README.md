@@ -182,11 +182,11 @@ Then, the merchandise that is most likely to be comparable is suggested.
 
 ## How does Cosine Similarity Work??
 
-![Cosine Similarity](https://i0.wp.com/towardsmachinelearning.org/wp-content/uploads/2020/07/image-5.png?w=1170&ssl=1) 
+![Cosine Similarity](https://i0.wp.com/clay-atlas.com/wp-content/uploads/2020/03/cosine-similarity-2.png?fit=800,208&ssl=1) 
 
 Regardless of the size of the documents, the cosine similarity measure is employed to determine how similar they are. It makes a mathematical estimation of the cosine of the angle created by two vectors projected in a multidimensional space. Even if two comparable documents are spaced apart by the Euclidean distance (because of the size of the documents), they are likely to be oriented closer together because of the cosine similarity. The angle is narrower the higher the cosine similarity.
 
-![Cosine Similarity](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5395939b-d6e3-459f-baf6-39c4319fc9f7_303x256.png)
+![Cosine Similarity](https://i0.wp.com/towardsmachinelearning.org/wp-content/uploads/2020/07/image-5.png?w=1170&ssl=1)
 
 ## Collaborative Filtering
 The only additional need for collaborative filtering is users' past preferences for a particular group of items. The fundamental premise here is that users who have agreed in the past are likely to agree in the future since it is based on previous data.
