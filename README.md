@@ -7,11 +7,6 @@ The Popularity-Based Recommender System operates on the tenets of trendiness and
 
 Content-Based The comparable content theory underlies how recommender systems operate. It makes product recommendations based on comparable product content. Based on cosine similarity, the model suggests related products to the user.
 
-All of the Datasets have been removed from Kaggle. There are 15K records in this collection. It is a Myntra.com product listing for the months of June through August 2019.
-
-Dataset Link: https://www.kaggle.com/datasets/promptcloud/all-products-from-myntracom-2019
-
-Link to youtube demo: 
 
 ## Goals of the project
 
