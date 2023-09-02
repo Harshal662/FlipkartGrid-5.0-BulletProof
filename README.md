@@ -147,7 +147,7 @@ Install all Python modules which are in the backend/requirements.txt file
 
 #### NOTE
 
-Download backend files from here: 
+Download backend files from here: https://drive.google.com/drive/folders/1dZSvr5BJfakuP0Z9ercl3GUbKw7zmxEe?usp=drive_link
 
 Add these files inside the backend folder. As models were large they can't be uploaded on Git Hub. Please download it from the Google Drive Link.
 

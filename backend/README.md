@@ -1,5 +1,7 @@
 # BulletProof - A Fashion recommendation System
 
+## Backend folder file structure
+![Alt text](<Backend Folder file structure.jpg>)
 
 ## API Reference
 
