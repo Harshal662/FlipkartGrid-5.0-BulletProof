@@ -177,7 +177,7 @@ Then, the merchandise that is most likely to be comparable is suggested.
 
 ## How does Cosine Similarity Work??
 
-![Cosine Similarity](https://i0.wp.com/clay-atlas.com/wp-content/uploads/2020/03/cosine-similarity-2.png?fit=800,208&ssl=1) 
+![Cosine Similarity](https://miro.medium.com/v2/resize:fit:1400/1*LfW66-WsYkFqWc4XYJbEJg.png) 
 
 Regardless of the size of the documents, the cosine similarity measure is employed to determine how similar they are. It makes a mathematical estimation of the cosine of the angle created by two vectors projected in a multidimensional space. Even if two comparable documents are spaced apart by the Euclidean distance (because of the size of the documents), they are likely to be oriented closer together because of the cosine similarity. The angle is narrower the higher the cosine similarity.
 
